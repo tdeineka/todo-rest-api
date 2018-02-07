@@ -1,0 +1,9 @@
+﻿Node.js RESTful API Challenge
+
+Create a RESTful todo list API: i.e. endpoints that will create a task, get or read list of all tasks, read a particular task, delete a task, and update a task.
+
+A task has an unique id, a name, a creation date and a status: it is either pending, ongoing or completed.
+
+Use the MongoDB for persistence and split the code into controllers, models and routes.
+
+Content type for all task operations (except delete) is application/json
