@@ -1,6 +1,4 @@
 ﻿var Todo = require('../models/todoModel');
-//var mongoose = require("mongoose");
-//var Todo = mongoose.model("Todo");
 
 exports.list = (req, res) => {
     Todo.find({}, (err, todo) => {
