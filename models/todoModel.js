@@ -17,8 +17,9 @@ let todoSchema = new Schema({
         type: Date,
         default: Date.now,
     },
-    versionKey: false
-});
+}
+,    { versionKey: false }
+);
 
 let Todo = mongoose.model("Todo", todoSchema);
 
